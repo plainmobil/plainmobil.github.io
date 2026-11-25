@@ -1,0 +1,1427 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>弟弟给姐姐吃巴雷特的视频 | 家庭影像社区 · 记录欢乐时刻</title>
+<meta name="description" content="弟弟给姐姐吃巴雷特的视频是家庭影像品牌「小家风」旗下的欢乐记录专区，汇聚兄弟姐妹之间的趣味互动短片，见证真实又温暖的亲情日常。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+/* ============================================================
+   基础重置与变量
+   ============================================================ */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d0b14;
+  --bg-2:#141020;
+  --bg-3:#1c1730;
+  --panel:#1a1528;
+  --panel-2:#221b35;
+  --line:rgba(255,255,255,.08);
+  --line-2:rgba(255,255,255,.14);
+  --text:#f2eefc;
+  --muted:#a89cc4;
+  --muted-2:#7d719a;
+  --accent:#ff5c8a;
+  --accent-2:#ffa45c;
+  --accent-3:#8b5cff;
+  --accent-4:#38d9c0;
+  --glow:0 0 40px rgba(255,92,138,.35);
+  --radius:20px;
+  --radius-sm:12px;
+  --shadow:0 24px 60px -24px rgba(0,0,0,.7);
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,-apple-system,sans-serif;
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+::selection{background:var(--accent);color:#fff}
+
+/* 滚动条 */
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:var(--bg-2)}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--accent),var(--accent-3));border-radius:10px}
+
+/* ============================================================
+   通用布局
+   ============================================================ */
+.wrap{width:min(1240px,92vw);margin-inline:auto}
+.section{padding:96px 0;position:relative}
+.section-head{max-width:760px;margin-bottom:52px}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--accent-2);font-weight:600;margin-bottom:18px;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:var(--accent-2);display:block}
+h2.section-title{font-size:clamp(1.7rem,3.4vw,2.6rem);line-height:1.25;letter-spacing:-.01em;font-weight:800}
+h2.section-title em{font-style:normal;color:var(--accent)}
+.section-sub{margin-top:16px;color:var(--muted);font-size:1.02rem;max-width:640px}
+.grad-text{
+  background:linear-gradient(100deg,var(--accent) 0%,var(--accent-2) 45%,var(--accent-4) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+
+/* ============================================================
+   顶部导航
+   ============================================================ */
+header.site-nav{
+  position:fixed;inset:0 0 auto 0;z-index:100;
+  padding:16px 0;
+  transition:background .35s ease,padding .35s ease,border-color .35s;
+  border-bottom:1px solid transparent;
+}
+header.site-nav.scrolled{
+  background:rgba(13,11,20,.82);
+  backdrop-filter:blur(18px) saturate(160%);
+  border-bottom-color:var(--line);
+  padding:10px 0;
+}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.06rem;letter-spacing:-.01em}
+.brand-mark{
+  width:38px;height:38px;border-radius:11px;flex:none;
+  background:linear-gradient(135deg,var(--accent),var(--accent-3));
+  display:grid;place-items:center;box-shadow:0 8px 22px -8px var(--accent);
+  position:relative;overflow:hidden;
+}
+.brand-mark::after{
+  content:"";position:absolute;inset:0;
+  background:radial-gradient(circle at 30% 20%,rgba(255,255,255,.5),transparent 55%);
+}
+.brand-mark svg{width:20px;height:20px;position:relative;z-index:1}
+.brand small{display:block;font-size:.62rem;color:var(--muted-2);font-weight:500;letter-spacing:.18em}
+nav.links{display:flex;gap:4px;align-items:center}
+nav.links a{
+  padding:9px 15px;border-radius:9px;font-size:.9rem;color:var(--muted);
+  transition:color .2s,background .2s;
+}
+nav.links a:hover{color:var(--text);background:rgba(255,255,255,.06)}
+.nav-actions{display:flex;gap:10px;align-items:center}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:11px 22px;border-radius:11px;font-size:.9rem;font-weight:600;
+  transition:transform .2s,box-shadow .25s,background .25s,color .2s;
+  white-space:nowrap;
+}
+.btn-primary{
+  background:linear-gradient(120deg,var(--accent),#ff7a5c);
+  color:#fff;box-shadow:0 10px 26px -10px rgba(255,92,138,.8);
+}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 16px 34px -12px rgba(255,92,138,.9)}
+.btn-ghost{border:1px solid var(--line-2);color:var(--text);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{background:rgba(255,255,255,.09);transform:translateY(-2px)}
+.menu-toggle{display:none;width:42px;height:42px;border-radius:10px;border:1px solid var(--line-2);place-items:center}
+.menu-toggle svg{width:20px;height:20px}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative;padding:170px 0 90px;overflow:hidden;
+  background:
+    radial-gradient(900px 520px at 78% -8%,rgba(255,92,138,.22),transparent 62%),
+    radial-gradient(760px 480px at 12% 8%,rgba(139,92,255,.24),transparent 60%),
+    radial-gradient(600px 400px at 50% 100%,rgba(56,217,192,.12),transparent 65%),
+    var(--bg);
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:7px 14px 7px 8px;border-radius:99px;
+  background:rgba(255,255,255,.05);border:1px solid var(--line-2);
+  font-size:.8rem;color:var(--muted);margin-bottom:26px;
+}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 0 rgba(74,222,128,.7);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(74,222,128,.7)}70%{box-shadow:0 0 0 10px rgba(74,222,128,0)}100%{box-shadow:0 0 0 0 rgba(74,222,128,0)}}
+h1.hero-title{
+  font-size:clamp(2.1rem,5vw,3.7rem);
+  line-height:1.14;letter-spacing:-.025em;font-weight:900;
+  margin-bottom:24px;
+}
+h1.hero-title .hl{
+  position:relative;display:inline-block;
+  background:linear-gradient(100deg,var(--accent) 10%,var(--accent-2) 60%,var(--accent-4));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+h1.hero-title .hl::after{
+  content:"";position:absolute;left:2%;right:2%;bottom:-6px;height:8px;border-radius:8px;
+  background:linear-gradient(90deg,var(--accent),var(--accent-3));opacity:.28;filter:blur(2px);
+}
+.hero-desc{font-size:1.06rem;color:var(--muted);max-width:560px;margin-bottom:34px}
+.hero-desc strong{color:var(--text);font-weight:600}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:44px}
+.hero-stats{display:flex;gap:40px;flex-wrap:wrap}
+.stat b{display:block;font-size:1.7rem;font-weight:800;letter-spacing:-.02em;
+  background:linear-gradient(120deg,#fff,#c9bcff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-size:.8rem;color:var(--muted-2);letter-spacing:.06em}
+
+/* HERO 右侧播放器 */
+.player-card{
+  position:relative;border-radius:26px;overflow:hidden;
+  background:linear-gradient(160deg,var(--panel-2),var(--bg-3));
+  border:1px solid var(--line-2);
+  box-shadow:var(--shadow);
+  transform:perspective(1200px) rotateY(-4deg) rotateX(2deg);
+  transition:transform .6s cubic-bezier(.2,.8,.2,1);
+}
+.player-card:hover{transform:perspective(1200px) rotateY(0) rotateX(0)}
+.player-stage{
+  aspect-ratio:16/10;position:relative;
+  background:
+    radial-gradient(circle at 30% 25%,rgba(255,92,138,.35),transparent 55%),
+    radial-gradient(circle at 75% 70%,rgba(139,92,255,.4),transparent 55%),
+    #0a0810;
+  display:grid;place-items:center;overflow:hidden;
+}
+.player-stage .stage-art{position:absolute;inset:0;opacity:.9}
+.play-btn{
+  width:78px;height:78px;border-radius:50%;position:relative;z-index:2;
+  background:rgba(255,255,255,.14);backdrop-filter:blur(8px);
+  border:1px solid rgba(255,255,255,.3);
+  display:grid;place-items:center;transition:transform .25s,background .25s;
+}
+.play-btn::before{
+  content:"";position:absolute;inset:-14px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.18);animation:ring 3s ease-out infinite;
+}
+@keyframes ring{0%{transform:scale(.85);opacity:.9}100%{transform:scale(1.35);opacity:0}}
+.play-btn:hover{transform:scale(1.08);background:var(--accent)}
+.play-btn svg{width:26px;height:26px;margin-left:4px;fill:#fff}
+.player-meta{padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.player-meta h3{font-size:.98rem;font-weight:700;margin-bottom:4px}
+.player-meta p{font-size:.78rem;color:var(--muted-2)}
+.chip{
+  font-size:.7rem;padding:5px 11px;border-radius:99px;font-weight:600;
+  background:rgba(56,217,192,.14);color:var(--accent-4);border:1px solid rgba(56,217,192,.3);
+  white-space:nowrap;
+}
+.floating-badge{
+  position:absolute;left:-26px;bottom:66px;z-index:3;
+  background:rgba(20,16,32,.86);backdrop-filter:blur(14px);
+  border:1px solid var(--line-2);border-radius:14px;padding:12px 16px;
+  display:flex;align-items:center;gap:11px;
+  box-shadow:0 18px 40px -18px #000;
+  animation:floaty 5s ease-in-out infinite;
+}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+.floating-badge .fb-icon{
+  width:34px;height:34px;border-radius:9px;display:grid;place-items:center;flex:none;
+  background:linear-gradient(135deg,var(--accent-2),var(--accent));
+}
+.floating-badge b{display:block;font-size:.82rem}
+.floating-badge span{font-size:.68rem;color:var(--muted-2)}
+
+/* ============================================================
+   LOGO 走马灯 / 合作方
+   ============================================================ */
+.marquee-band{
+  border-block:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,255,255,.02),transparent);
+  padding:26px 0;overflow:hidden;position:relative;
+}
+.marquee-band::before,.marquee-band::after{
+  content:"";position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-events:none;
+}
+.marquee-band::before{left:0;background:linear-gradient(90deg,var(--bg),transparent)}
+.marquee-band::after{right:0;background:linear-gradient(270deg,var(--bg),transparent)}
+.marquee-track{display:flex;gap:60px;width:max-content;animation:marquee 34s linear infinite}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.marquee-track span{
+  font-size:.9rem;color:var(--muted-2);letter-spacing:.12em;font-weight:600;
+  display:flex;align-items:center;gap:10px;white-space:nowrap;
+}
+.marquee-track span i{
+  width:6px;height:6px;border-radius:50%;background:var(--accent-3);display:inline-block;
+}
+
+/* ============================================================
+   视频精选卡片
+   ============================================================ */
+.video-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:26px;
+}
+.video-card{
+  background:linear-gradient(170deg,var(--panel),var(--bg-2));
+  border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;position:relative;
+  transition:transform .35s cubic-bezier(.2,.8,.2,1),border-color .35s,box-shadow .35s;
+}
+.video-card:hover{transform:translateY(-7px);border-color:rgba(255,92,138,.4);box-shadow:0 26px 54px -26px rgba(255,92,138,.45)}
+.vc-thumb{aspect-ratio:16/9;position:relative;overflow:hidden;background:#0a0810}
+.vc-thumb .thumb-art{position:absolute;inset:0;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.video-card:hover .thumb-art{transform:scale(1.06)}
+.vc-thumb .dur{
+  position:absolute;right:12px;bottom:12px;font-size:.7rem;padding:3px 8px;border-radius:6px;
+  background:rgba(0,0,0,.72);backdrop-filter:blur(4px);letter-spacing:.04em;
+}
+.vc-thumb .tag{
+  position:absolute;left:12px;top:12px;font-size:.68rem;font-weight:700;
+  padding:4px 10px;border-radius:7px;background:rgba(255,92,138,.9);color:#fff;
+  letter-spacing:.04em;
+}
+.vc-thumb .overlay-play{
+  position:absolute;inset:0;display:grid;place-items:center;opacity:0;transition:opacity .3s;
+  background:rgba(10,8,16,.34);
+}
+.video-card:hover .overlay-play{opacity:1}
+.overlay-play i{
+  width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.9);
+  display:grid;place-items:center;box-shadow:0 8px 22px rgba(0,0,0,.4);
+}
+.overlay-play i::after{
+  content:"";width:0;height:0;margin-left:3px;
+  border-left:14px solid #16101f;border-top:8px solid transparent;border-bottom:8px solid transparent;
+}
+.vc-body{padding:18px 20px 20px}
+.vc-body h3{font-size:1rem;font-weight:700;line-height:1.45;margin-bottom:8px}
+.vc-body p{font-size:.82rem;color:var(--muted-2);line-height:1.65;margin-bottom:14px}
+.vc-foot{display:flex;align-items:center;justify-content:space-between;font-size:.76rem;color:var(--muted-2)}
+.vc-author{display:flex;align-items:center;gap:8px}
+.avatar{width:24px;height:24px;border-radius:50%;flex:none;display:grid;place-items:center;font-size:.65rem;font-weight:700;color:#fff}
+.vc-views{display:flex;align-items:center;gap:5px}
+.vc-views svg{width:13px;height:13px;fill:currentColor;opacity:.8}
+
+/* ============================================================
+   特色（三栏）
+   ============================================================ */
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.feature{
+  padding:34px 30px;border-radius:var(--radius);position:relative;overflow:hidden;
+  background:linear-gradient(170deg,var(--panel),rgba(20,16,32,.4));
+  border:1px solid var(--line);transition:transform .35s,border-color .35s;
+}
+.feature:hover{transform:translateY(-6px);border-color:var(--line-2)}
+.feature::before{
+  content:"";position:absolute;top:-40px;right:-40px;width:140px;height:140px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,92,138,.25),transparent 70%);filter:blur(10px);
+  transition:opacity .35s;opacity:.6;
+}
+.feature:hover::before{opacity:1}
+.feature-icon{
+  width:52px;height:52px;border-radius:14px;display:grid;place-items:center;
+  margin-bottom:22px;position:relative;z-index:1;
+  background:linear-gradient(140deg,rgba(255,92,138,.22),rgba(139,92,255,.22));
+  border:1px solid var(--line-2);
+}
+.feature-icon svg{width:24px;height:24px;stroke:var(--accent-2);fill:none;stroke-width:1.7}
+.feature h3{font-size:1.08rem;font-weight:700;margin-bottom:10px;position:relative;z-index:1}
+.feature p{font-size:.88rem;color:var(--muted);position:relative;z-index:1}
+.feature .num{
+  position:absolute;right:22px;top:16px;font-size:2.6rem;font-weight:900;
+  color:rgba(255,255,255,.045);letter-spacing:-.04em;
+}
+
+/* ============================================================
+   时间线 / 社区故事
+   ============================================================ */
+.timeline-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:start}
+.timeline-list{position:relative;padding-left:26px}
+.timeline-list::before{
+  content:"";position:absolute;left:6px;top:8px;bottom:8px;width:1px;
+  background:linear-gradient(180deg,var(--accent),var(--accent-3),transparent);
+}
+.tl-item{position:relative;padding-bottom:34px}
+.tl-item:last-child{padding-bottom:0}
+.tl-item::before{
+  content:"";position:absolute;left:-24px;top:7px;width:11px;height:11px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--accent-3);box-shadow:0 0 0 4px rgba(139,92,255,.14);
+}
+.tl-time{font-size:.74rem;color:var(--accent-4);letter-spacing:.1em;font-weight:700;margin-bottom:6px}
+.tl-item h4{font-size:1rem;font-weight:700;margin-bottom:6px}
+.tl-item p{font-size:.86rem;color:var(--muted)}
+.story-card{
+  border-radius:var(--radius);overflow:hidden;
+  background:linear-gradient(160deg,var(--panel-2),var(--bg-2));
+  border:1px solid var(--line-2);box-shadow:var(--shadow);
+}
+.story-visual{aspect-ratio:16/10;position:relative;background:#0a0810;overflow:hidden}
+.story-visual svg{width:100%;height:100%}
+.story-body{padding:30px 32px}
+.story-body .quote{
+  font-size:1.22rem;font-weight:600;line-height:1.6;letter-spacing:-.01em;margin-bottom:18px;
+  position:relative;padding-left:22px;
+}
+.story-body .quote::before{
+  content:"“";position:absolute;left:-4px;top:-14px;font-size:3rem;color:var(--accent);opacity:.5;
+  font-family:Georgia,serif;
+}
+.story-body .who{display:flex;align-items:center;gap:12px;font-size:.84rem;color:var(--muted)}
+.story-body .who .avatar{width:38px;height:38px;font-size:.8rem}
+
+/* ============================================================
+   数据条
+   ============================================================ */
+.stats-band{
+  border-block:1px solid var(--line);
+  background:
+    radial-gradient(600px 200px at 50% 0%,rgba(139,92,255,.14),transparent 70%),
+    var(--bg-2);
+  padding:64px 0;
+}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;text-align:center}
+.stats-row .s b{
+  display:block;font-size:clamp(1.9rem,3.6vw,2.8rem);font-weight:900;letter-spacing:-.03em;
+  background:linear-gradient(120deg,#fff 20%,var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.stats-row .s span{font-size:.82rem;color:var(--muted-2);letter-spacing:.08em}
+
+/* ============================================================
+   分类标签切换 + 更多列表
+   ============================================================ */
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:36px}
+.filter-btn{
+  padding:9px 18px;border-radius:99px;font-size:.84rem;color:var(--muted);
+  border:1px solid var(--line);background:rgba(255,255,255,.02);
+  transition:all .25s;
+}
+.filter-btn:hover{color:var(--text);border-color:var(--line-2)}
+.filter-btn.active{
+  background:linear-gradient(120deg,var(--accent),var(--accent-3));
+  color:#fff;border-color:transparent;box-shadow:0 10px 24px -12px var(--accent);
+}
+.list-row{
+  display:flex;align-items:center;gap:20px;padding:18px 20px;border-radius:var(--radius-sm);
+  border:1px solid transparent;transition:background .25s,border-color .25s,transform .25s;
+}
+.list-row:hover{background:rgba(255,255,255,.035);border-color:var(--line);transform:translateX(4px)}
+.list-row .idx{font-size:.86rem;font-weight:800;color:var(--muted-2);width:26px;flex:none;font-variant-numeric:tabular-nums}
+.list-row .lr-thumb{width:96px;height:58px;border-radius:9px;flex:none;overflow:hidden;position:relative;background:#0a0810}
+.list-row .lr-thumb svg{width:100%;height:100%}
+.list-row .lr-main{flex:1;min-width:0}
+.list-row .lr-main h4{font-size:.96rem;font-weight:600;margin-bottom:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.list-row .lr-main p{font-size:.76rem;color:var(--muted-2)}
+.list-row .lr-meta{font-size:.76rem;color:var(--muted-2);white-space:nowrap}
+.badge-mini{
+  font-size:.68rem;padding:3px 9px;border-radius:6px;font-weight:600;white-space:nowrap;
+  background:rgba(139,92,255,.16);color:#b9a4ff;border:1px solid rgba(139,92,255,.28);
+}
+.badge-mini.hot{background:rgba(255,92,138,.16);color:#ff9ab5;border-color:rgba(255,92,138,.3)}
+.badge-mini.new{background:rgba(56,217,192,.14);color:var(--accent-4);border-color:rgba(56,217,192,.28)}
+
+/* ============================================================
+   FAQ 折叠
+   ============================================================ */
+.faq-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.faq-list{display:flex;flex-direction:column;gap:12px}
+.faq-item{
+  border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  background:rgba(255,255,255,.018);transition:border-color .3s;
+}
+.faq-item[open]{border-color:rgba(255,92,138,.4);background:rgba(255,92,138,.045)}
+.faq-item summary{
+  list-style:none;cursor:pointer;padding:19px 22px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;
+  font-size:.96rem;font-weight:600;
+}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary .plus{
+  width:22px;height:22px;flex:none;position:relative;transition:transform .3s;
+}
+.faq-item summary .plus::before,.faq-item summary .plus::after{
+  content:"";position:absolute;background:var(--accent);border-radius:2px;
+}
+.faq-item summary .plus::before{left:0;right:0;top:50%;height:2px;transform:translateY(-50%)}
+.faq-item summary .plus::after{top:0;bottom:0;left:50%;width:2px;transform:translateX(-50%);transition:transform .3s}
+.faq-item[open] summary .plus::after{transform:translateX(-50%) rotate(90deg) scaleY(0)}
+.faq-item .faq-a{padding:0 22px 22px;font-size:.88rem;color:var(--muted);line-height:1.85}
+
+/* ============================================================
+   CTA 区块
+   ============================================================ */
+.cta-section{padding:96px 0 110px;position:relative}
+.cta-box{
+  position:relative;border-radius:30px;overflow:hidden;padding:70px 56px;text-align:center;
+  background:
+    radial-gradient(560px 300px at 18% 10%,rgba(255,92,138,.35),transparent 62%),
+    radial-gradient(560px 320px at 84% 90%,rgba(139,92,255,.38),transparent 62%),
+    linear-gradient(150deg,var(--panel-2),var(--bg-3));
+  border:1px solid var(--line-2);box-shadow:var(--shadow);
+}
+.cta-box h2{font-size:clamp(1.6rem,3.6vw,2.6rem);font-weight:900;letter-spacing:-.02em;line-height:1.3;margin-bottom:18px}
+.cta-box p{color:var(--muted);max-width:560px;margin:0 auto 34px;font-size:1rem}
+.cta-form{display:flex;gap:12px;max-width:500px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+.cta-form input{
+  flex:1;min-width:220px;padding:14px 18px;border-radius:12px;font-size:.92rem;font-family:inherit;
+  background:rgba(0,0,0,.34);border:1px solid var(--line-2);color:var(--text);outline:none;
+  transition:border-color .25s,box-shadow .25s;
+}
+.cta-form input::placeholder{color:var(--muted-2)}
+.cta-form input:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(255,92,138,.16)}
+.cta-note{margin-top:20px;font-size:.76rem;color:var(--muted-2)}
+
+/* ============================================================
+   页脚
+   ============================================================ */
+footer.site-footer{border-top:1px solid var(--line);background:var(--bg-2);padding:64px 0 32px}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px}
+.footer-brand p{font-size:.86rem;color:var(--muted-2);margin:16px 0 20px;max-width:300px}
+.socials{display:flex;gap:10px}
+.socials a{
+  width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+  border:1px solid var(--line);color:var(--muted);transition:all .25s;
+}
+.socials a:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-3px)}
+.socials svg{width:17px;height:17px;fill:currentColor}
+.footer-col h4{font-size:.82rem;letter-spacing:.1em;color:var(--text);margin-bottom:18px;font-weight:700}
+.footer-col a{display:block;font-size:.85rem;color:var(--muted-2);padding:6px 0;transition:color .2s}
+.footer-col a:hover{color:var(--accent-2)}
+.footer-bottom{
+  border-top:1px solid var(--line);padding-top:26px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-size:.78rem;color:var(--muted-2);
+}
+.footer-bottom .fl{display:flex;gap:20px;flex-wrap:wrap}
+.footer-bottom a:hover{color:var(--text)}
+
+/* ============================================================
+   入场动画
+   ============================================================ */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.8,.2,1),transform .8s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* Toast */
+.toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,140%);
+  background:rgba(24,19,38,.96);border:1px solid var(--line-2);backdrop-filter:blur(14px);
+  padding:13px 22px;border-radius:12px;font-size:.86rem;z-index:200;
+  transition:transform .45s cubic-bezier(.2,.8,.2,1);box-shadow:0 18px 40px -16px #000;
+}
+.toast.show{transform:translate(-50%,0)}
+
+/* ============================================================
+   响应式
+   ============================================================ */
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:44px}
+  .player-card{transform:none}
+  .floating-badge{left:14px;bottom:14px}
+  .timeline-layout,.faq-layout{grid-template-columns:1fr;gap:36px}
+  .video-grid,.feature-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .stats-row{grid-template-columns:repeat(2,1fr);gap:36px}
+}
+@media(max-width:760px){
+  nav.links{display:none}
+  nav.links.open{
+    display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;
+    background:rgba(13,11,20,.98);backdrop-filter:blur(20px);padding:14px;
+    border-bottom:1px solid var(--line);gap:2px;
+  }
+  nav.links.open a{padding:13px 16px;width:100%}
+  .menu-toggle{display:grid}
+  .nav-actions .btn-ghost{display:none}
+  .section{padding:70px 0}
+  .hero{padding:130px 0 60px}
+  .video-grid,.feature-grid{grid-template-columns:1fr}
+  .cta-box{padding:48px 24px}
+  .footer-grid{grid-template-columns:1fr;gap:30px}
+  .list-row .lr-thumb{width:74px;height:46px}
+  .list-row .lr-meta{display:none}
+  .stats-row{grid-template-columns:1fr 1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ================= 顶部导航 ================= -->
+<header class="site-nav" id="siteNav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand" aria-label="小家风 首页">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h6A2.5 2.5 0 0 1 15 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-6A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="#fff" stroke-width="1.4"/><path d="M15 9.6l4.1-2.3a.8.8 0 0 1 1.2.7v8a.8.8 0 0 1-1.2.7L15 14.4V9.6Z" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      </span>
+      <span>小家风<small>FAMILY MOTION</small></span>
+    </a>
+
+    <nav class="links" id="navLinks">
+      <a href="#featured">精选短片</a>
+      <a href="#features">平台特色</a>
+      <a href="#stories">社区故事</a>
+      <a href="#more">更多片单</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#more" class="btn btn-ghost">浏览片库</a>
+      <a href="#cta" class="btn btn-primary">加入社区</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="展开菜单" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <span class="hero-tag"><i class="live-dot"></i> 今日新增 128 条家庭趣味短片</span>
+
+      <h1 class="hero-title">弟弟给姐姐吃<span class="hl">巴雷特</span>的视频</h1>
+
+      <p class="hero-desc">
+        兄弟姐妹之间的趣味互动，有时只需要一颗糖果、一个表情，就能笑上一整天。
+        <strong>「小家风」</strong>把这些真实又暖心的瞬间妥善收藏，做成可以反复回看的家庭影像档案——
+        每一帧都是平凡日子里的高光。
+      </p>
+
+      <div class="hero-cta">
+        <a href="#featured" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l10-6.5-10-6.5Z"/></svg>
+          开始观看
+        </a>
+        <a href="#stories" class="btn btn-ghost">了解社区故事</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat"><b data-count="1260000">0</b><span>累计播放次数</span></div>
+        <div class="stat"><b data-count="38000">0</b><span>家庭创作者</span></div>
+        <div class="stat"><b data-count="96">0</b><span>% 用户好评率</span></div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="player-card">
+        <div class="player-stage">
+          <svg class="stage-art" viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs>
+              <linearGradient id="pg1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ff5c8a" stop-opacity=".55"/>
+                <stop offset="1" stop-color="#8b5cff" stop-opacity=".35"/>
+              </linearGradient>
+              <linearGradient id="pg2" x1="0" y1="1" x2="1" y2="0">
+                <stop offset="0" stop-color="#38d9c0" stop-opacity=".5"/>
+                <stop offset="1" stop-color="#ffa45c" stop-opacity=".4"/>
+              </linearGradient>
+            </defs>
+            <rect width="480" height="300" fill="#0a0810"/>
+            <circle cx="130" cy="80" r="110" fill="url(#pg1)"/>
+            <circle cx="380" cy="230" r="120" fill="url(#pg2)"/>
+            <g opacity=".55" stroke="#fff" stroke-width="1.2" fill="none">
+              <path d="M60 250c40-60 110-95 180-95s150 40 190 95"/>
+              <path d="M60 270c40-60 110-95 180-95s150 40 190 95" opacity=".5"/>
+            </g>
+            <g opacity=".9">
+              <circle cx="196" cy="150" r="26" fill="#ff8aab" opacity=".85"/>
+              <circle cx="196" cy="142" r="12" fill="#2a1f38"/>
+              <rect x="176" y="168" width="40" height="46" rx="16" fill="#ff5c8a" opacity=".75"/>
+              <circle cx="286" cy="158" r="22" fill="#c4a9ff" opacity=".85"/>
+              <circle cx="286" cy="151" r="10" fill="#2a1f38"/>
+              <rect x="268" y="174" width="36" height="40" rx="14" fill="#8b5cff" opacity=".75"/>
+            </g>
+            <g fill="#fff" opacity=".28">
+              <circle cx="90" cy="60" r="2.4"/><circle cx="410" cy="70" r="1.8"/>
+              <circle cx="340" cy="46" r="2"/><circle cx="140" cy="240" r="1.6"/>
+            </g>
+          </svg>
+          <button class="play-btn" data-toast="正在加载预览片段…" aria-label="播放预览">
+            <svg viewBox="0 0 24 24"><path d="M8 5.5v13l10-6.5-10-6.5Z"/></svg>
+          </button>
+          <div class="floating-badge">
+            <span class="fb-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.3 1.1 6.1L12 16.9 6.7 19.8l1.1-6.1L3.3 9.4l6.1-.8L12 3Z" stroke-linejoin="round"/></svg>
+            </span>
+            <div><b>本周精选</b><span>家庭趣味互动合辑</span></div>
+          </div>
+        </div>
+        <div class="player-meta">
+          <div>
+            <h3>弟弟给姐姐吃巴雷特的视频 · 第 01 集</h3>
+            <p>温馨 / 家庭记录 · 04:26</p>
+          </div>
+          <span class="chip">HD 1080P</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 走马灯 ================= -->
+<div class="marquee-band" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <span><i></i>家庭影像</span>
+    <span><i></i>亲情记录</span>
+    <span><i></i>趣味短片</span>
+    <span><i></i>真实日常</span>
+    <span><i></i>社区共创</span>
+    <span><i></i>安全审校</span>
+    <span><i></i>高清画质</span>
+    <span><i></i>温暖陪伴</span>
+  </div>
+</div>
+
+<!-- ================= 精选短片 ================= -->
+<section class="section" id="featured">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Featured Shorts</span>
+      <h2 class="section-title">精选短片 · <em>每一帧都有笑声</em></h2>
+      <p class="section-sub">我们从海量家庭记录中挑出最具感染力的几条，涵盖姐弟互动、日常生活、节日惊喜与成长瞬间，适合与家人一同观看。</p>
+    </div>
+
+    <div class="video-grid">
+
+      <!-- 卡片 1 -->
+      <article class="video-card reveal">
+        <div class="vc-thumb">
+          <svg class="thumb-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="t1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5c8a"/><stop offset="1" stop-color="#2a1f38"/></linearGradient></defs>
+            <rect width="320" height="180" fill="url(#t1)"/>
+            <circle cx="110" cy="80" r="30" fill="#ffd7e2" opacity=".92"/>
+            <circle cx="110" cy="72" r="13" fill="#33243f"/>
+            <rect x="86" y="104" width="48" height="44" rx="16" fill="#fff" opacity=".7"/>
+            <circle cx="212" cy="92" r="24" fill="#c9b1ff" opacity=".92"/>
+            <circle cx="212" cy="85" r="10.5" fill="#33243f"/>
+            <rect x="194" y="110" width="36" height="34" rx="12" fill="#fff" opacity=".6"/>
+            <rect x="140" y="86" width="26" height="16" rx="6" fill="#ffe08a" opacity=".95"/>
+            <path d="M150 86v-8M156 86v-8" stroke="#ffe08a" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span class="tag">热门</span>
+          <span class="dur">04:26</span>
+          <span class="overlay-play"><i></i></span>
+        </div>
+        <div class="vc-body">
+          <h3>弟弟给姐姐吃巴雷特的视频 · 甜蜜交换</h3>
+          <p>弟弟把珍藏的水果糖郑重地递到姐姐手里，两个人笑成一团。简单的举动，藏着最直白的喜欢。</p>
+          <div class="vc-foot">
+            <span class="vc-author"><span class="avatar" style="background:linear-gradient(135deg,#ff5c8a,#ffa45c)">林</span>林家小院</span>
+            <span class="vc-views"><svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></svg>38.2万</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 卡片 2 -->
+      <article class="video-card reveal">
+        <div class="vc-thumb">
+          <svg class="thumb-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="t2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cff"/><stop offset="1" stop-color="#141020"/></linearGradient></defs>
+            <rect width="320" height="180" fill="url(#t2)"/>
+            <rect x="34" y="112" width="252" height="8" rx="4" fill="#fff" opacity=".18"/>
+            <circle cx="96" cy="74" r="26" fill="#e2d6ff" opacity=".92"/>
+            <circle cx="96" cy="67" r="11" fill="#2d2340"/>
+            <rect x="74" y="96" width="44" height="42" rx="15" fill="#8b5cff" opacity=".8"/>
+            <circle cx="214" cy="84" r="22" fill="#ffe6b8" opacity=".94"/>
+            <circle cx="214" cy="78" r="9.5" fill="#2d2340"/>
+            <rect x="196" y="102" width="36" height="36" rx="13" fill="#ffa45c" opacity=".8"/>
+            <g fill="#fff" opacity=".4"><circle cx="52" cy="44" r="2"/><circle cx="270" cy="38" r="2.4"/><circle cx="160" cy="30" r="1.6"/></g>
+          </svg>
+          <span class="tag">新片</span>
+          <span class="dur">02:58</span>
+          <span class="overlay-play"><i></i></span>
+        </div>
+        <div class="vc-body">
+          <h3>厨房里的分工：姐姐掌勺，弟弟递糖</h3>
+          <p>周末的厨房总是热闹，姐弟俩各自认领任务。打翻的面粉、递错的糖罐，都成了饭桌上最好笑的话题。</p>
+          <div class="vc-foot">
+            <span class="vc-author"><span class="avatar" style="background:linear-gradient(135deg,#8b5cff,#38d9c0)">周</span>周末厨房</span>
+            <span class="vc-views"><svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></svg>21.7万</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 卡片 3 -->
+      <article class="video-card reveal">
+        <div class="vc-thumb">
+          <svg class="thumb-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="t3" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#38d9c0"/><stop offset="1" stop-color="#141020"/></linearGradient></defs>
+            <rect width="320" height="180" fill="url(#t3)"/>
+            <circle cx="86" cy="66" r="24" fill="#c9fff5" opacity=".9"/>
+            <circle cx="86" cy="60" r="10.5" fill="#1d3a37"/>
+            <rect x="66" y="86" width="40" height="44" rx="14" fill="#38d9c0" opacity=".75"/>
+            <circle cx="230" cy="70" r="28" fill="#ffe9cf" opacity=".95"/>
+            <circle cx="230" cy="63" r="12" fill="#1d3a37"/>
+            <rect x="208" y="94" width="44" height="46" rx="16" fill="#ffa45c" opacity=".8"/>
+            <path d="M150 120c14-18 34-18 48 0" stroke="#fff" stroke-width="2" fill="none" opacity=".5" stroke-linecap="round"/>
+          </svg>
+          <span class="tag">暖心</span>
+          <span class="dur">06:12</span>
+          <span class="overlay-play"><i></i></span>
+        </div>
+        <div class="vc-body">
+          <h3>把糖果留到最后一口：一次小小的分享课</h3>
+          <p>妈妈记录下姐弟俩分糖的全过程，从讨价还价到主动让步，一次再普通不过的对话，却让人看到成长的痕迹。</p>
+          <div class="vc-foot">
+            <span class="vc-author"><span class="avatar" style="background:linear-gradient(135deg,#38d9c0,#8b5cff)">苏</span>苏家日常</span>
+            <span class="vc-views"><svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></svg>15.4万</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 卡片 4 -->
+      <article class="video-card reveal">
+        <div class="vc-thumb">
+          <svg class="thumb-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="t4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffa45c"/><stop offset="1" stop-color="#2a1f38"/></linearGradient></defs>
+            <rect width="320" height="180" fill="url(#t4)"/>
+            <rect x="0" y="128" width="320" height="52" fill="#141020" opacity=".55"/>
+            <circle cx="120" cy="82" r="28" fill="#ffe3c4" opacity=".95"/>
+            <circle cx="120" cy="75" r="12" fill="#3a2620"/>
+            <rect x="96" y="106" width="48" height="40" rx="15" fill="#ffa45c" opacity=".85"/>
+            <circle cx="216" cy="72" r="23" fill="#ffd0dd" opacity=".9"/>
+            <circle cx="216" cy="66" r="10" fill="#3a2620"/>
+            <rect x="198" y="92" width="36" height="38" rx="12" fill="#ff5c8a" opacity=".8"/>
+            <g stroke="#fff" stroke-width="2" opacity=".5" stroke-linecap="round">
+              <path d="M62 60l8-8M70 60l-8-8"/>
+              <path d="M262 108l8-8M270 108l-8-8"/>
+            </g>
+          </svg>
+          <span class="tag">合辑</span>
+          <span class="dur">08:40</span>
+          <span class="overlay-play"><i></i></span>
+        </div>
+        <div class="vc-body">
+          <h3>姐弟相处图鉴：那些吵吵闹闹又分不开的日子</h3>
+          <p>十段真实片段串起来的日常记录——抢遥控器、互相告状、分享零食、偷偷和好。吵归吵，谁也没想过真的分开。</p>
+          <div class="vc-foot">
+            <span class="vc-author"><span class="avatar" style="background:linear-gradient(135deg,#ffa45c,#ff5c8a)">陈</span>陈家有娃</span>
+            <span class="vc-views"><svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></svg>52.9万</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 卡片 5 -->
+      <article class="video-card reveal">
+        <div class="vc-thumb">
+          <svg class="thumb-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="t5" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cff"/><stop offset="1" stop-color="#1c1730"/></linearGradient></defs>
+            <rect width="320" height="180" fill="url(#t5)"/>
+            <circle cx="160" cy="90" r="62" fill="none" stroke="#fff" stroke-width="1.4" opacity=".22"/>
+            <circle cx="160" cy="90" r="44" fill="none" stroke="#fff" stroke-width="1.4" opacity=".16"/>
+            <circle cx="132" cy="78" r="22" fill="#e6dbff" opacity=".92"/>
+            <circle cx="132" cy="72" r="9.5" fill="#2c2240"/>
+            <rect x="113" y="98" width="38" height="38" rx="13" fill="#8b5cff" opacity=".85"/>
+            <circle cx="196" cy="86" r="19" fill="#ffe6c2" opacity=".92"/>
+            <circle cx="196" cy="81" r="8" fill="#2c2240"/>
+            <rect x="181" y="103" width="30" height="32" rx="11" fill="#ffa45c" opacity=".8"/>
+          </svg>
+          <span class="tag">纪实</span>
+          <span class="dur">05:05</span>
+          <span class="overlay-play"><i></i></span>
+        </div>
+        <div class="vc-body">
+          <h3>一次搬家，一场姐弟的“谈判”</h3>
+          <p>整理旧物时翻出一盒旧糖纸，姐弟俩从争抢到商量，最后决定一人一半。镜头之外的父母，全程憋笑。</p>
+          <div class="vc-foot">
+            <span class="vc-author"><span class="avatar" style="background:linear-gradient(135deg,#8b5cff,#ff5c8a)">何</span>何家影像簿</span>
+            <span class="vc-views"><svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></svg>9.8万</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 卡片 6 -->
+      <article class="video-card reveal">
+        <div class="vc-thumb">
+          <svg class="thumb-art" viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <defs><linearGradient id="t6" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#ff5c8a"/><stop offset="1" stop-color="#38d9c0"/></linearGradient></defs>
+            <rect width="320" height="180" fill="url(#t6)" opacity=".85"/>
+            <rect width="320" height="180" fill="#141020" opacity=".35"/>
+            <circle cx="104" cy="86" r="27" fill="#ffe0ea" opacity=".95"/>
+            <circle cx="104" cy="79" r="11.5" fill="#31223a"/>
+            <rect x="81" y="110" width="46" height="42" rx="15" fill="#fff" opacity=".72"/>
+            <circle cx="218" cy="80" r="24" fill="#d6fff8" opacity=".95"/>
+            <circle cx="218" cy="74" r="10" fill="#31223a"/>
+            <rect x="200" y="100" width="36" height="40" rx="13" fill="#fff" opacity=".66"/>
+            <path d="M146 96h28M146 108h28" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+          </svg>
+          <span class="tag">会员</span>
+          <span class="dur">03:37</span>
+          <span class="overlay-play"><i></i></span>
+        </div>
+        <div class="vc-body">
+          <h3>糖果罐的秘密：弟弟藏了三颗，姐姐全知道</h3>
+          <p>家庭的默契有时不需要语言。一个眼神、一个动作，姐姐早就看穿了弟弟的小心思，却选择笑着配合。</p>
+          <div class="vc-foot">
+            <span class="vc-author"><span class="avatar" style="background:linear-gradient(135deg,#38d9c0,#ffa45c)">叶</span>叶家小剧场</span>
+            <span class="vc-views"><svg viewBox="0 0 24 24"><path d="M12 5c-5 0-9 4.5-9 7s4 7 9 7 9-4.5 9-7-4-7-9-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z"/></svg>17.1万</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= 平台特色 ================= -->
+<section class="section" id="features" style="background:linear-gradient(180deg,transparent,rgba(255,255,255,.018),transparent)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why Family Motion</span>
+      <h2 class="section-title">为什么选择我们 <em>记录家庭时刻</em></h2>
+      <p class="section-sub">「小家风」不只是一个视频平台，更像一间为家庭准备的影像档案馆。从拍摄建议到安全审校，我们希望让每一次记录都值得被认真对待。</p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature reveal">
+        <span class="num">01</span>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>一键留存高清原片</h3>
+        <p>支持手机与相机原片上传，自动转码并保留原始画质。无论几年后回看，画面依旧清晰如初，不会因为压缩而丢失表情细节。</p>
+      </div>
+
+      <div class="feature reveal">
+        <span class="num">02</span>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.4 8 8 9 4.6-1 8-4 8-9V6l-8-3Z" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>家庭隐私保护机制</h3>
+        <p>每条视频都可以单独设隐私级别：仅家人可见、指定亲友可见或公开分享。我们坚持最小化收集原则，孩子的隐私永远排在第一位。</p>
+      </div>
+
+      <div class="feature reveal">
+        <span class="num">03</span>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 18V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12" stroke-linecap="round"/><path d="M4 18h16M8 18v-5m4 5V9m4 9v-7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>智能整理与检索</h3>
+        <p>系统会自动识别场景与人物，把「生日」「出游」「兄弟姐妹互动」等主题归入片单。想找那段珍藏已久的对话，输入关键词即可直达。</p>
+      </div>
+
+      <div class="feature reveal">
+        <span class="num">04</span>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-9.5A4.5 4.5 0 0 1 12 8a4.5 4.5 0 0 1 7 3.5C19 16.6 12 21 12 21Z" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>温暖的社区氛围</h3>
+        <p>这里没有流量竞赛，只有彼此分享。评论区鼓励善意表达，恶意内容会被快速处理，让家长可以安心让孩子出现在镜头里。</p>
+      </div>
+
+      <div class="feature reveal">
+        <span class="num">05</span>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>成片工具轻量易用</h3>
+        <p>内置字幕、配乐与转场模板，几分钟就能把零散片段剪成一支完整短片。不会剪辑也没关系，套用模板即可出片。</p>
+      </div>
+
+      <div class="feature reveal">
+        <span class="num">06</span>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M5 13a7 7 0 0 1 14 0" stroke-linecap="round"/><rect x="3" y="13" width="4" height="7" rx="2"/><rect x="17" y="13" width="4" height="7" rx="2"/></svg>
+        </div>
+        <h3>运营支持与创作者计划</h3>
+        <p>优质家庭记录者可加入创作者计划，获得拍摄指导、专题推荐与合理的收益分成。让认真记录生活的人，被更多人看见。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 社区故事 ================= -->
+<section class="section" id="stories">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Community Stories</span>
+      <h2 class="section-title">社区故事 · <em>镜头背后的温度</em></h2>
+      <p class="section-sub">每一条短片背后，都是一个普通家庭的真实片段。我们记录下这些故事，也记录下大家为什么愿意举起手机。</p>
+    </div>
+
+    <div class="timeline-layout">
+      <div class="reveal">
+        <div class="timeline-list">
+          <div class="tl-item">
+            <div class="tl-time">2019 · 起点</div>
+            <h4>第一支家庭短片</h4>
+            <p>创始团队拍下自家姐弟俩分享糖果的一幕，随手发到网上，收到上千条留言，由此萌生了做家庭影像平台的想法。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">2021 · 成长</div>
+            <h4>社区雏形形成</h4>
+            <p>越来越多的家庭加入，大家互相交流拍摄技巧与相处心得，社区逐渐有了自己的语气和温度。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">2023 · 升级</div>
+            <h4>隐私与安全体系上线</h4>
+            <p>引入分级可见机制与人工审校流程，让家长在分享之余，也能给孩子留出安全的空间。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">2025 · 现在</div>
+            <h4>三万个家庭的日常档案</h4>
+            <p>平台已收录数十万条家庭记录，从姐弟互动到四世同堂，真实的生活构成了这里最动人的底色。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="story-card">
+          <div class="story-visual">
+            <svg viewBox="0 0 480 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+              <defs>
+                <linearGradient id="sv1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#ff5c8a" stop-opacity=".8"/>
+                  <stop offset="1" stop-color="#8b5cff" stop-opacity=".7"/>
+                </linearGradient>
+              </defs>
+              <rect width="480" height="300" fill="#120e1e"/>
+              <circle cx="120" cy="70" r="90" fill="url(#sv1)" opacity=".4"/>
+              <circle cx="390" cy="250" r="110" fill="#38d9c0" opacity=".12"/>
+              <rect x="150" y="80" width="180" height="150" rx="14" fill="#1e1830" stroke="#3a3152" stroke-width="1.5"/>
+              <rect x="166" y="96" width="148" height="102" rx="8" fill="#0b0813"/>
+              <circle cx="210" cy="140" r="18" fill="#ffd6e2"/>
+              <circle cx="210" cy="134" r="8" fill="#33243f"/>
+              <rect x="194" y="156" width="32" height="26" rx="10" fill="#ff5c8a" opacity=".8"/>
+              <circle cx="272" cy="148" r="15" fill="#d9c9ff"/>
+              <circle cx="272" cy="143" r="6.6" fill="#33243f"/>
+              <rect x="259" y="161" width="26" height="21" rx="8" fill="#8b5cff" opacity=".85"/>
+              <rect x="166" y="208" width="148" height="4" rx="2" fill="#3a3152"/>
+              <circle cx="300" cy="210" r="5" fill="#ff5c8a"/>
+              <rect x="110" y="250" width="260" height="6" rx="3" fill="#2a2240"/>
+              <g fill="#fff" opacity=".16"><circle cx="70" cy="210" r="2.4"/><circle cx="420" cy="70" r="2"/><circle cx="360" cy="42" r="1.6"/></g>
+            </svg>
+          </div>
+          <div class="story-body">
+            <p class="quote">我原本只想给孩子们留个纪念，没想到很多陌生人也说，看完想起了自己和兄弟姐妹的小时候。</p>
+            <div class="who">
+              <span class="avatar" style="background:linear-gradient(135deg,#ff5c8a,#8b5cff)">周</span>
+              <span><b style="color:var(--text)">周女士</b> · 两个孩子的妈妈 · 加入社区 4 年</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 数据条 ================= -->
+<section class="stats-band">
+  <div class="wrap">
+    <div class="stats-row">
+      <div class="s reveal"><b data-count="38000">0</b><span>注册家庭</span></div>
+      <div class="s reveal"><b data-count="1260000">0</b><span>累计播放</span></div>
+      <div class="s reveal"><b data-count="74000">0</b><span>原创短片</span></div>
+      <div class="s reveal"><b data-count="12">0</b><span>城市线下活动</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 更多片单 ================= -->
+<section class="section" id="more">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">More From The Library</span>
+      <h2 class="section-title">更多片单 · <em>按主题慢慢看</em></h2>
+      <p class="section-sub">从姐弟互动到节日记录，从餐桌日常到旅行见闻，选择一个你感兴趣的主题，开始一段温暖的观看时光。</p>
+    </div>
+
+    <div class="filter-bar reveal" id="filterBar">
+      <button class="filter-btn active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="inter">姐弟互动</button>
+      <button class="filter-btn" data-filter="daily">生活日常</button>
+      <button class="filter-btn" data-filter="fest">节日记忆</button>
+      <button class="filter-btn" data-filter="grow">成长瞬间</button>
+    </div>
+
+    <div id="listContainer" class="reveal">
+
+      <div class="list-row" data-cat="inter">
+        <span class="idx">01</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#2a1f38"/><circle cx="34" cy="26" r="11" fill="#ffd6e2"/><circle cx="34" cy="23" r="5" fill="#33243f"/><rect x="25" y="36" width="18" height="16" rx="7" fill="#ff5c8a" opacity=".8"/><circle cx="64" cy="30" r="9" fill="#d9c9ff"/><rect x="56" y="38" width="16" height="14" rx="6" fill="#8b5cff" opacity=".85"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>弟弟给姐姐吃巴雷特的视频 · 完整合集</h4>
+          <p>姐弟互动 · 林家小院</p>
+        </div>
+        <div class="lr-meta">38.2 万次播放</div>
+        <span class="badge-mini hot">热门</span>
+      </div>
+
+      <div class="list-row" data-cat="daily">
+        <span class="idx">02</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#1d2b2a"/><rect x="14" y="34" width="68" height="5" rx="2.5" fill="#3a5654"/><circle cx="34" cy="22" r="9" fill="#c9fff5"/><circle cx="34" cy="19" r="4" fill="#1d3a37"/><rect x="26" y="30" width="16" height="14" rx="6" fill="#38d9c0" opacity=".8"/><circle cx="64" cy="24" r="8" fill="#ffe6c2"/><rect x="57" y="32" width="14" height="12" rx="5" fill="#ffa45c" opacity=".85"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>周六早餐桌上的十分钟对话</h4>
+          <p>生活日常 · 苏家日常</p>
+        </div>
+        <div class="lr-meta">12.4 万次播放</div>
+        <span class="badge-mini new">新片</span>
+      </div>
+
+      <div class="list-row" data-cat="fest">
+        <span class="idx">03</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#2c1a22"/><circle cx="48" cy="24" r="12" fill="#ffb26b"/><rect x="40" y="36" width="16" height="16" rx="6" fill="#ff5c8a" opacity=".8"/><g fill="#ffe08a"><circle cx="20" cy="14" r="2"/><circle cx="76" cy="18" r="1.8"/><circle cx="66" cy="42" r="1.6"/><circle cx="28" cy="44" r="1.4"/></g></svg>
+        </span>
+        <div class="lr-main">
+          <h4>节日餐桌上的分糖规则</h4>
+          <p>节日记忆 · 陈家有娃</p>
+        </div>
+        <div class="lr-meta">9.6 万次播放</div>
+        <span class="badge-mini">精选</span>
+      </div>
+
+      <div class="list-row" data-cat="grow">
+        <span class="idx">04</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#1b1a2e"/><rect x="18" y="38" width="60" height="4" rx="2" fill="#38345c"/><circle cx="36" cy="24" r="10" fill="#e6dbff"/><circle cx="36" cy="21" r="4.4" fill="#2c2240"/><rect x="28" y="32" width="16" height="14" rx="6" fill="#8b5cff" opacity=".85"/><circle cx="64" cy="28" r="8" fill="#ffe6c2"/><rect x="57" y="35" width="14" height="11" rx="5" fill="#ffa45c" opacity=".8"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>第一次自己系鞋带的那天</h4>
+          <p>成长瞬间 · 何家影像簿</p>
+        </div>
+        <div class="lr-meta">7.1 万次播放</div>
+        <span class="badge-mini new">新片</span>
+      </div>
+
+      <div class="list-row" data-cat="inter">
+        <span class="idx">05</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#2a1f38"/><circle cx="30" cy="26" r="10" fill="#ffd6e2"/><circle cx="30" cy="23" r="4.4" fill="#33243f"/><rect x="22" y="34" width="16" height="15" rx="6" fill="#ff5c8a" opacity=".8"/><circle cx="66" cy="28" r="8.6" fill="#d9c9ff"/><circle cx="66" cy="25" r="3.8" fill="#33243f"/><rect x="59" y="35" width="14" height="12" rx="5" fill="#8b5cff" opacity=".85"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>抢遥控器之后的三分钟和好</h4>
+          <p>姐弟互动 · 林家小院</p>
+        </div>
+        <div class="lr-meta">26.8 万次播放</div>
+        <span class="badge-mini hot">热门</span>
+      </div>
+
+      <div class="list-row" data-cat="daily">
+        <span class="idx">06</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#1d2b2a"/><rect x="10" y="40" width="76" height="4" rx="2" fill="#3a5654"/><circle cx="32" cy="24" r="9" fill="#c9fff5"/><circle cx="32" cy="21" r="4" fill="#1d3a37"/><rect x="24" y="31" width="16" height="14" rx="6" fill="#38d9c0" opacity=".8"/><circle cx="66" cy="26" r="9" fill="#ffe6c2"/><circle cx="66" cy="23" r="4" fill="#3a2620"/><rect x="58" y="33" width="16" height="13" rx="6" fill="#ffa45c" opacity=".85"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>一起擦桌子的一天</h4>
+          <p>生活日常 · 周家厨房</p>
+        </div>
+        <div class="lr-meta">5.8 万次播放</div>
+        <span class="badge-mini">精选</span>
+      </div>
+
+      <div class="list-row" data-cat="fest">
+        <span class="idx">07</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#2c1a22"/><circle cx="48" cy="22" r="10" fill="#ffb26b"/><rect x="40" y="32" width="16" height="16" rx="6" fill="#ff5c8a" opacity=".8"/><path d="M20 44h56" stroke="#ffe08a" stroke-width="1.4" opacity=".6"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>节日礼物被提前拆开了</h4>
+          <p>节日记忆 · 叶家小剧场</p>
+        </div>
+        <div class="lr-meta">11.2 万次播放</div>
+        <span class="badge-mini new">新片</span>
+      </div>
+
+      <div class="list-row" data-cat="grow">
+        <span class="idx">08</span>
+        <span class="lr-thumb">
+          <svg viewBox="0 0 96 58" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="96" height="58" fill="#1b1a2e"/><rect x="16" y="40" width="64" height="4" rx="2" fill="#38345c"/><circle cx="34" cy="22" r="9" fill="#e6dbff"/><circle cx="34" cy="19" r="4" fill="#2c2240"/><rect x="26" y="30" width="16" height="14" rx="6" fill="#8b5cff" opacity=".85"/><circle cx="64" cy="26" r="8.4" fill="#ffe6c2"/><circle cx="64" cy="23.5" r="3.6" fill="#2c2240"/><rect x="57" y="33" width="14" height="12" rx="5" fill="#ffa45c" opacity=".8"/></svg>
+        </span>
+        <div class="lr-main">
+          <h4>姐姐学会骑车，弟弟在后面追</h4>
+          <p>成长瞬间 · 苏家日常</p>
+        </div>
+        <div class="lr-meta">14.6 万次播放</div>
+        <span class="badge-mini">精选</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section class="section" id="faq" style="background:linear-gradient(180deg,transparent,rgba(255,255,255,.018),transparent)">
+  <div class="wrap faq-layout">
+    <div class="reveal">
+      <span class="eyebrow">FAQ</span>
+      <h2 class="section-title">常见问题</h2>
+      <p class="section-sub">关于内容收录、隐私设置与创作者计划，这里有你想知道的答案。若仍未解决，欢迎通过页面底部的联系方式找到我们。</p>
+    </div>
+
+    <div class="faq-list reveal">
+      <details class="faq-item" open>
+        <summary>平台收录的视频内容都经过审核吗？<span class="plus"></span></summary>
+        <div class="faq-a">是的。所有公开内容在上线前都会经过人工与智能双重审核，重点检查隐私泄露、不当画面与版权问题。涉及未成年人的内容，我们采用更严格的标准，并默认关闭陌生人评论。</div>
+      </details>
+      <details class="faq-item">
+        <summary>我可以只让家人在平台内观看吗？<span class="plus"></span></summary>
+        <div class="faq-a">完全可以。上传时可选择「仅家人可见」或「指定亲友可见」，并通过邀请码添加家庭成员。此模式下内容不会出现在任何公开推荐位或搜索结果中。</div>
+      </details>
+      <details class="faq-item">
+        <summary>视频画质会被压缩吗？<span class="plus"></span></summary>
+        <div class="faq-a">平台保留上传时的原始文件，并在播放端提供多档清晰度。开通会员后可直接下载原始画质文件，方便自行备份到本地硬盘或私有云。</div>
+      </details>
+      <details class="faq-item">
+        <summary>如何加入创作者计划？<span class="plus"></span></summary>
+        <div class="faq-a">当账号持续发布原创家庭记录，且内容健康、稳定更新时，系统会主动发出邀请。你也可以在个人中心提交申请，审核周期通常为 7 个工作日。</div>
+      </details>
+      <details class="faq-item">
+        <summary>如果发现不合适的内容怎么办？<span class="plus"></span></summary>
+        <div class="faq-a">每条内容页都有举报入口，举报会直接进入人工复核通道，24 小时内给出处理结果。核实违规的内容将被下线，情节严重者账号将被限制发布。</div>
+      </details>
+      <details class="faq-item">
+        <summary>支持哪些设备的拍摄与上传？<span class="plus"></span></summary>
+        <div class="faq-a">支持主流手机系统、相机导出的常见视频格式，也支持网页端批量上传。我们建议采用横屏、1080P 及以上分辨率拍摄，以获得更好的观看体验。</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-section" id="cta">
+  <div class="wrap">
+    <div class="cta-box reveal">
+      <h2>把家里的笑声，<br>留在可以回看的地方</h2>
+      <p>加入「小家风」，与三万多个家庭一起记录真实的日常。现在注册，即可获得 30 天高级会员与专属剪辑模板包。</p>
+      <form class="cta-form" id="ctaForm">
+        <input type="email" id="ctaEmail" placeholder="请输入你的邮箱地址" required aria-label="邮箱地址">
+        <button type="submit" class="btn btn-primary">免费注册</button>
+      </form>
+      <p class="cta-note">我们尊重你的隐私，邮箱仅用于账号通知，可随时退订。</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= 页脚 ================= -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="brand" aria-label="小家风 首页">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h6A2.5 2.5 0 0 1 15 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-6A2.5 2.5 0 0 1 4 16.5v-9Z" stroke="#fff" stroke-width="1.4"/><path d="M15 9.6l4.1-2.3a.8.8 0 0 1 1.2.7v8a.8.8 0 0 1-1.2.7L15 14.4V9.6Z" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          </span>
+          <span>小家风<small>FAMILY MOTION</small></span>
+        </a>
+        <p>专注家庭影像的真实记录平台。我们相信，最动人的画面，往往就发生在餐桌旁、客厅里和每一个平常的傍晚。</p>
+        <div class="socials">
+          <a href="#" aria-label="微博"><svg viewBox="0 0 24 24"><path d="M10.5 8.4c-3.1.3-5.6 2.3-5.6 4.7 0 2.6 2.9 4.5 6.4 4.5s6.4-2 6.4-4.6c0-2.2-2-3.9-4.7-4.3-.3 0-.4-.2-.3-.5.1-.6 0-1.2-.3-1.6-.4-.5-1.1-.6-1.9-.3-.3.1-.4 0-.3-.3 0-.6-.2-1.1-.6-1.4-.6-.4-1.5-.2-2.2.4-.2.2-.3.1-.3-.1-.1-1-.9-1.7-1.9-1.6-.9.1-1.6.9-1.6 1.8 0 .3 0 .5.1.7.1.2 0 .3-.1.3-1.3.6-2.2 1.6-2.2 2.8 0 .2 0 .4.1.6.1.2 0 .3-.2.3-1 .3-1.7 1-1.7 1.9 0 1.4 1.9 2.6 4.3 2.6.6 0 1.2-.1 1.8-.2.2 0 .3 0 .3.2-.1.4-.2.8-.1 1.1.1.5.5.8 1 .8.3 0 .6-.1.9-.3.2-.1.3 0 .3.2 0 .6.5 1.1 1.1 1.1.8 0 1.5-.7 1.5-1.6 0-.2.1-.3.3-.3 1.1-.2 1.9-1.1 1.9-2.1 0-.4-.1-.7-.3-1-.1-.2 0-.3.2-.3 1.2-.4 2-1.2 2-2.1 0-1.3-1.6-2.4-3.7-2.4Z"/></svg></a>
+          <a href="#" aria-label="微信"><svg viewBox="0 0 24 24"><path d="M9 3.8c-3.7 0-6.7 2.5-6.7 5.5 0 1.7 1 3.3 2.6 4.3l-.6 2 2.2-1.1c.7.2 1.3.3 2 .3h.4c-.1-.4-.2-.8-.2-1.2 0-2.9 2.8-5.3 6.2-5.3h.4C14.8 5.7 12.1 3.8 9 3.8Zm-2.3 3.1a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8Zm4.6 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8Z"/><path d="M21 13.5c0-2.5-2.5-4.5-5.6-4.5S9.8 11 9.8 13.5s2.5 4.5 5.6 4.5c.6 0 1.1-.1 1.7-.2l1.9.9-.5-1.7c1.5-.9 2.5-2.2 2.5-3.5Zm-7.4-1.2a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Zm3.8 0a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Z"/></svg></a>
+          <a href="#" aria-label="B站"><svg viewBox="0 0 24 24"><path d="M6.5 5.6 4.8 3.9a1 1 0 0 1 1.4-1.4l2.1 2.1h7.4l2.1-2.1a1 1 0 1 1 1.4 1.4l-1.7 1.7h.9a3 3 0 0 1 3 3v8.3a3 3 0 0 1-3 3H5.6a3 3 0 0 1-3-3V8.6a3 3 0 0 1 3-3h.9Zm-.9 3.3a1 1 0 0 0-1 1v6.7a1 1 0 0 0 1 1h12.8a1 1 0 0 0 1-1V9.9a1 1 0 0 0-1-1H5.6Zm2.6 2.6a.9.9 0 0 1 .9.9v1.2a.9.9 0 1 1-1.8 0v-1.2a.9.9 0 0 1 .9-.9Zm7.6 0a.9.9 0 0 1 .9.9v1.2a.9.9 0 1 1-1.8 0v-1.2a.9.9 0 0 1 .9-.9Z"/></svg></a>
+          <a href="#" aria-label="邮箱"><svg viewBox="0 0 24 24"><path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.4l8 4.6 8-4.6V7H4Zm16 2.5-7.5 4.3a1 1 0 0 1-1 0L4 9.5V17h16V9.5Z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>内容浏览</h4>
+        <a href="#featured">精选短片</a>
+        <a href="#more">主题片单</a>
+        <a href="#stories">社区故事</a>
+        <a href="#faq">常见问题</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>关于平台</h4>
+        <a href="#">品牌介绍</a>
+        <a href="#">创作者计划</a>
+        <a href="#">内容规范</a>
+        <a href="#">联系我们</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>帮助与协议</h4>
+        <a href="#">隐私政策</a>
+        <a href="#">用户协议</a>
+        <a href="#">未成年人保护</a>
+        <a href="#">举报与申诉</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 小家风 Family Motion · 保留所有权利</span>
+      <div class="fl">
+        <a href="#">隐私设置</a>
+        <a href="#">服务条款</a>
+        <a href="#">网站地图</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  'use strict';
+
+  /* ---------- 导航滚动状态 ---------- */
+  var nav = document.getElementById('siteNav');
+  function onScroll(){
+    if(window.scrollY > 24){ nav.classList.add('scrolled'); }
+    else{ nav.classList.remove('scrolled'); }
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---------- 移动端菜单 ---------- */
+  var toggle = document.getElementById('menuToggle');
+  var links = document.getElementById('navLinks');
+  toggle.addEventListener('click', function(){
+    var open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- 入场动画 ---------- */
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          en.target.classList.add('in');
+          io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    revealEls.forEach(function(el){ io.observe(el); });
+  }else{
+    revealEls.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ---------- 数字滚动 ---------- */
+  var counters = document.querySelectorAll('[data-count]');
+  function animateCount(el){
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var start = null;
+    var dur = 1600;
+    function step(ts){
+      if(!start) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var val = Math.floor(target * eased);
+      if(target >= 10000){
+        el.textContent = (val / 10000).toFixed(1) + '万+';
+      }else if(target >= 1000){
+        el.textContent = val.toLocaleString('zh-CN') + '+';
+      }else{
+        el.textContent = val + (target === 96 ? '' : '+');
+      }
+      if(p < 1) requestAnimationFrame(step);
+      else{
+        if(target >= 10000) el.textContent = (target/10000).toFixed(1) + '万+';
+        else if(target >= 1000) el.textContent = target.toLocaleString('zh-CN') + '+';
+        else el.textContent = target + (target === 96 ? '' : '+');
+      }
+    }
+    requestAnimationFrame(step);
+  }
+  if('IntersectionObserver' in window){
+    var cio = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          animateCount(en.target);
+          cio.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.5});
+    counters.forEach(function(el){ cio.observe(el); });
+  }else{
+    counters.forEach(animateCount);
+  }
+
+  /* ---------- 轻提示 ---------- */
+  var toast = document.getElementById('toast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('show'); }, 2600);
+  }
+
+  /* ---------- 播放按钮 ---------- */
+  document.querySelectorAll('.play-btn').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      showToast(btn.getAttribute('data-toast') || '正在加载视频…');
+    });
+  });
+
+  /* ---------- 视频卡片点击 ---------- */
+  document.querySelectorAll('.video-card').forEach(function(card){
+    card.addEventListener('click', function(){
+      var title = card.querySelector('h3');
+      showToast('即将播放：' + (title ? title.textContent : '精选短片'));
+    });
+  });
+
+  /* ---------- 列表行点击 ---------- */
+  document.querySelectorAll('.list-row').forEach(function(row){
+    row.style.cursor = 'pointer';
+    row.addEventListener('click', function(){
+      var title = row.querySelector('h4');
+      showToast('即将播放：' + (title ? title.textContent : '片单内容'));
+    });
+  });
+
+  /* ---------- 筛选 ---------- */
+  var filterBtns = document.querySelectorAll('.filter-btn');
+  var rows = document.querySelectorAll('.list-row');
+  filterBtns.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      filterBtns.forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var f = btn.getAttribute('data-filter');
+      rows.forEach(function(row){
+        var show = (f === 'all' || row.getAttribute('data-cat') === f);
+        row.style.display = show ? '' : 'none';
+      });
+    });
+  });
+
+  /* ---------- 表单 ---------- */
+  var form = document.getElementById('ctaForm');
+  var emailInput = document.getElementById('ctaEmail');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var val = emailInput.value.trim();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)){
+      showToast('请输入有效的邮箱地址');
+      emailInput.focus();
+      return;
+    }
+    showToast('注册成功，欢迎加入小家风！');
+    emailInput.value = '';
+  });
+
+  /* ---------- 走马灯无缝复制 ---------- */
+  var track = document.getElementById('marqueeTrack');
+  if(track){
+    track.innerHTML += track.innerHTML;
+  }
+
+  /* ---------- 平滑锚点（兼容旧浏览器） ---------- */
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var id = a.getAttribute('href');
+      if(id === '#' || id.length < 2) return;
+      var target = document.querySelector(id);
+      if(target){
+        e.preventDefault();
+        var top = target.getBoundingClientRect().top + window.scrollY - 70;
+        window.scrollTo({top: top, behavior:'smooth'});
+      }
+    });
+  });
+
+})();
+</script>
+</body>
+        </html>
